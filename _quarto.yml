@@ -1,12 +1,15 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "barcelona_city_dat"
+  title: "Barcelona City Data"
   navbar:
     left:
       - href: index.qmd
         text: Home
+      - href: maps/L5Y_polar_map.html
+        text: AQ_polar_plots
       - about.qmd
 
 format:
