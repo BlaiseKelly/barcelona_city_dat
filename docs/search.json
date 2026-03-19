@@ -2,9 +2,100 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "barcelona_city_dat",
+    "title": "Barcelona AQ and Cycle network",
     "section": "",
-    "text": "Plotting air quality and cycle infrastructure data for Barcelona.\nMaps show air quality sites plotted as polar plots for the last 5 years\nCycle map is the evolution of Barcelona cycle paths since 2009 from ohsome package processed with osmactive."
+    "text": "Piecing together some AQ and cycle network data for a Barcelona study trip."
+  },
+  {
+    "objectID": "index.html#sant-adria-de-beso-olimpic-es1148a",
+    "href": "index.html#sant-adria-de-beso-olimpic-es1148a",
+    "title": "Barcelona AQ and Cycle network",
+    "section": "Sant Adria de Beso (Olimpic) es1148a",
+    "text": "Sant Adria de Beso (Olimpic) es1148a\n\nNO2\n\n\nconcentrations by wind direction and speed for last 5 years\n\n\n\nNormalised concentrations since monitor installed\n\n\n\nPM10\n\n\nconcentrations by wind direction and speed for last 5 years\n\n\n\nNormalised concentrations since monitor installed\n ## Barcelon (I’Eixample) es1438a\n\n\nNO2"
+  },
+  {
+    "objectID": "index.html#concentrations-by-wind-direction-and-speed-for-last-5-years-2",
+    "href": "index.html#concentrations-by-wind-direction-and-speed-for-last-5-years-2",
+    "title": "Barcelona AQ and Cycle network",
+    "section": "concentrations by wind direction and speed for last 5 years",
+    "text": "concentrations by wind direction and speed for last 5 years"
+  },
+  {
+    "objectID": "index.html#normalised-concentrations-since-monitor-installed-2",
+    "href": "index.html#normalised-concentrations-since-monitor-installed-2",
+    "title": "Barcelona AQ and Cycle network",
+    "section": "Normalised concentrations since monitor installed",
+    "text": "Normalised concentrations since monitor installed\n\n\nPM10"
+  },
+  {
+    "objectID": "index.html#normalised-concentrations-since-monitor-installed-3",
+    "href": "index.html#normalised-concentrations-since-monitor-installed-3",
+    "title": "Barcelona AQ and Cycle network",
+    "section": "Normalised concentrations since monitor installed",
+    "text": "Normalised concentrations since monitor installed"
+  },
+  {
+    "objectID": "index.html#barcelona-gracia---sant-gervasi-es1480a",
+    "href": "index.html#barcelona-gracia---sant-gervasi-es1480a",
+    "title": "Barcelona AQ and Cycle network",
+    "section": "Barcelona (Gracia - Sant Gervasi) es1480a",
+    "text": "Barcelona (Gracia - Sant Gervasi) es1480a\n\nNO2"
+  },
+  {
+    "objectID": "index.html#normalised-concentrations-since-monitor-installed-4",
+    "href": "index.html#normalised-concentrations-since-monitor-installed-4",
+    "title": "Barcelona AQ and Cycle network",
+    "section": "Normalised concentrations since monitor installed",
+    "text": "Normalised concentrations since monitor installed"
+  },
+  {
+    "objectID": "index.html#pm10-2",
+    "href": "index.html#pm10-2",
+    "title": "Barcelona AQ and Cycle network",
+    "section": "PM10",
+    "text": "PM10"
+  },
+  {
+    "objectID": "index.html#normalised-concentrations-since-monitor-installed-5",
+    "href": "index.html#normalised-concentrations-since-monitor-installed-5",
+    "title": "Barcelona AQ and Cycle network",
+    "section": "Normalised concentrations since monitor installed",
+    "text": "Normalised concentrations since monitor installed\n ## Barcelona (pl. de la Universitat) es0559a\n\nPM10"
+  },
+  {
+    "objectID": "index.html#normalised-concentrations-since-monitor-installed-6",
+    "href": "index.html#normalised-concentrations-since-monitor-installed-6",
+    "title": "Barcelona AQ and Cycle network",
+    "section": "Normalised concentrations since monitor installed",
+    "text": "Normalised concentrations since monitor installed"
+  },
+  {
+    "objectID": "index.html#i5-badalona-es0693a",
+    "href": "index.html#i5-badalona-es0693a",
+    "title": "Barcelona AQ and Cycle network",
+    "section": "I5 Badalona es0693a",
+    "text": "I5 Badalona es0693a\n\nNO2"
+  },
+  {
+    "objectID": "index.html#normalised-concentrations-since-monitor-installed-7",
+    "href": "index.html#normalised-concentrations-since-monitor-installed-7",
+    "title": "Barcelona AQ and Cycle network",
+    "section": "Normalised concentrations since monitor installed",
+    "text": "Normalised concentrations since monitor installed"
+  },
+  {
+    "objectID": "index.html#ia-cornella-es0695a",
+    "href": "index.html#ia-cornella-es0695a",
+    "title": "Barcelona AQ and Cycle network",
+    "section": "IA Cornella es0695a",
+    "text": "IA Cornella es0695a\n\nNO2"
+  },
+  {
+    "objectID": "index.html#normalised-concentrations-since-monitor-installed-8",
+    "href": "index.html#normalised-concentrations-since-monitor-installed-8",
+    "title": "Barcelona AQ and Cycle network",
+    "section": "Normalised concentrations since monitor installed",
+    "text": "Normalised concentrations since monitor installed"
   },
   {
     "objectID": "about.html",

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>barcelona_city_dat – Barcelona City Data</title>
+<title>Barcelona AQ and Cycle network – Barcelona City Data</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -119,15 +119,61 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#air-quality" id="toc-air-quality" class="nav-link active" data-scroll-target="#air-quality">Air Quality</a>
+  <ul class="collapse">
+  <li><a href="#sant-adria-de-beso-olimpic-es1148a" id="toc-sant-adria-de-beso-olimpic-es1148a" class="nav-link" data-scroll-target="#sant-adria-de-beso-olimpic-es1148a">Sant Adria de Beso (Olimpic) es1148a</a>
+  <ul class="collapse">
+  <li><a href="#no2" id="toc-no2" class="nav-link" data-scroll-target="#no2">NO<sub>2</sub></a></li>
+  <li><a href="#concentrations-by-wind-direction-and-speed-for-last-5-years" id="toc-concentrations-by-wind-direction-and-speed-for-last-5-years" class="nav-link" data-scroll-target="#concentrations-by-wind-direction-and-speed-for-last-5-years">concentrations by wind direction and speed for last 5 years</a></li>
+  <li><a href="#normalised-concentrations-since-monitor-installed" id="toc-normalised-concentrations-since-monitor-installed" class="nav-link" data-scroll-target="#normalised-concentrations-since-monitor-installed">Normalised concentrations since monitor installed</a></li>
+  <li><a href="#pm10" id="toc-pm10" class="nav-link" data-scroll-target="#pm10">PM<sub>10</sub></a></li>
+  <li><a href="#concentrations-by-wind-direction-and-speed-for-last-5-years-1" id="toc-concentrations-by-wind-direction-and-speed-for-last-5-years-1" class="nav-link" data-scroll-target="#concentrations-by-wind-direction-and-speed-for-last-5-years-1">concentrations by wind direction and speed for last 5 years</a></li>
+  <li><a href="#normalised-concentrations-since-monitor-installed-1" id="toc-normalised-concentrations-since-monitor-installed-1" class="nav-link" data-scroll-target="#normalised-concentrations-since-monitor-installed-1">Normalised concentrations since monitor installed</a></li>
+  <li><a href="#no2-1" id="toc-no2-1" class="nav-link" data-scroll-target="#no2-1">NO<sub>2</sub></a></li>
+  </ul></li>
+  <li><a href="#concentrations-by-wind-direction-and-speed-for-last-5-years-2" id="toc-concentrations-by-wind-direction-and-speed-for-last-5-years-2" class="nav-link" data-scroll-target="#concentrations-by-wind-direction-and-speed-for-last-5-years-2">concentrations by wind direction and speed for last 5 years</a></li>
+  <li><a href="#normalised-concentrations-since-monitor-installed-2" id="toc-normalised-concentrations-since-monitor-installed-2" class="nav-link" data-scroll-target="#normalised-concentrations-since-monitor-installed-2">Normalised concentrations since monitor installed</a>
+  <ul class="collapse">
+  <li><a href="#pm10-1" id="toc-pm10-1" class="nav-link" data-scroll-target="#pm10-1">PM<sub>10</sub></a></li>
+  </ul></li>
+  <li><a href="#normalised-concentrations-since-monitor-installed-3" id="toc-normalised-concentrations-since-monitor-installed-3" class="nav-link" data-scroll-target="#normalised-concentrations-since-monitor-installed-3">Normalised concentrations since monitor installed</a></li>
+  <li><a href="#barcelona-gracia---sant-gervasi-es1480a" id="toc-barcelona-gracia---sant-gervasi-es1480a" class="nav-link" data-scroll-target="#barcelona-gracia---sant-gervasi-es1480a">Barcelona (Gracia - Sant Gervasi) es1480a</a>
+  <ul class="collapse">
+  <li><a href="#no2-2" id="toc-no2-2" class="nav-link" data-scroll-target="#no2-2">NO<sub>2</sub></a></li>
+  </ul></li>
+  <li><a href="#normalised-concentrations-since-monitor-installed-4" id="toc-normalised-concentrations-since-monitor-installed-4" class="nav-link" data-scroll-target="#normalised-concentrations-since-monitor-installed-4">Normalised concentrations since monitor installed</a></li>
+  <li><a href="#pm10-2" id="toc-pm10-2" class="nav-link" data-scroll-target="#pm10-2">PM<sub>10</sub></a></li>
+  <li><a href="#normalised-concentrations-since-monitor-installed-5" id="toc-normalised-concentrations-since-monitor-installed-5" class="nav-link" data-scroll-target="#normalised-concentrations-since-monitor-installed-5">Normalised concentrations since monitor installed</a>
+  <ul class="collapse">
+  <li><a href="#pm10-3" id="toc-pm10-3" class="nav-link" data-scroll-target="#pm10-3">PM<sub>10</sub></a></li>
+  </ul></li>
+  <li><a href="#normalised-concentrations-since-monitor-installed-6" id="toc-normalised-concentrations-since-monitor-installed-6" class="nav-link" data-scroll-target="#normalised-concentrations-since-monitor-installed-6">Normalised concentrations since monitor installed</a></li>
+  <li><a href="#i5-badalona-es0693a" id="toc-i5-badalona-es0693a" class="nav-link" data-scroll-target="#i5-badalona-es0693a">I5 Badalona es0693a</a>
+  <ul class="collapse">
+  <li><a href="#no2-3" id="toc-no2-3" class="nav-link" data-scroll-target="#no2-3">NO<sub>2</sub></a></li>
+  </ul></li>
+  <li><a href="#normalised-concentrations-since-monitor-installed-7" id="toc-normalised-concentrations-since-monitor-installed-7" class="nav-link" data-scroll-target="#normalised-concentrations-since-monitor-installed-7">Normalised concentrations since monitor installed</a></li>
+  <li><a href="#ia-cornella-es0695a" id="toc-ia-cornella-es0695a" class="nav-link" data-scroll-target="#ia-cornella-es0695a">IA Cornella es0695a</a>
+  <ul class="collapse">
+  <li><a href="#no2-4" id="toc-no2-4" class="nav-link" data-scroll-target="#no2-4">NO<sub>2</sub></a></li>
+  </ul></li>
+  <li><a href="#normalised-concentrations-since-monitor-installed-8" id="toc-normalised-concentrations-since-monitor-installed-8" class="nav-link" data-scroll-target="#normalised-concentrations-since-monitor-installed-8">Normalised concentrations since monitor installed</a></li>
+  </ul></li>
+  <li><a href="#cycle-network" id="toc-cycle-network" class="nav-link" data-scroll-target="#cycle-network">Cycle Network</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">barcelona_city_dat</h1>
+<h1 class="title">Barcelona AQ and Cycle network</h1>
 </div>
 
 
@@ -144,11 +190,112 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Plotting air quality and cycle infrastructure data for Barcelona.</p>
-<p>Maps show air quality sites plotted as polar plots for the last 5 years</p>
-<p>Cycle map is the evolution of Barcelona cycle paths since 2009 from ohsome package processed with osmactive.</p>
+<p>Piecing together some AQ and cycle network data for a Barcelona study trip.</p>
+<section id="air-quality" class="level1">
+<h1>Air Quality</h1>
+<p>There are 8 air quality sites in Barcelona monitoring NO2 and PM, the main vehicle pollutants of interest.</p>
+<p>Two useful ways to use this data to gain insights into the effect of sources is to combine the data with wind speed and direction and do a “Polar Plot” from the openair R package. This essentially bins concentrations onto a compass and shows what combination of conditions had which concentrations.</p>
+<p>This has been done for all sites and species as an average for the last 5 years on <a href="https://blaisekelly.github.io/barcelona_city_dat/maps/L5Y_polar_map.html">an interactive map</a></p>
+<p>The second is to meteorologically normalise the data and remove the effect of the weather, which is in many cases a stronger influence on local concentrations than sources themselves. This allows patterns from sources to be more visible.</p>
+<section id="sant-adria-de-beso-olimpic-es1148a" class="level2">
+<h2 class="anchored" data-anchor-id="sant-adria-de-beso-olimpic-es1148a">Sant Adria de Beso (Olimpic) es1148a</h2>
+<section id="no2" class="level3">
+<h3 class="anchored" data-anchor-id="no2">NO<sub>2</sub></h3>
+</section>
+<section id="concentrations-by-wind-direction-and-speed-for-last-5-years" class="level3">
+<h3 class="anchored" data-anchor-id="concentrations-by-wind-direction-and-speed-for-last-5-years">concentrations by wind direction and speed for last 5 years</h3>
+<p><img src="plots/no2_es1148a_polar.png" class="img-fluid"></p>
+</section>
+<section id="normalised-concentrations-since-monitor-installed" class="level3">
+<h3 class="anchored" data-anchor-id="normalised-concentrations-since-monitor-installed">Normalised concentrations since monitor installed</h3>
+<p><img src="plots/no2_es1148a_norm.png" class="img-fluid"></p>
+</section>
+<section id="pm10" class="level3">
+<h3 class="anchored" data-anchor-id="pm10">PM<sub>10</sub></h3>
+</section>
+<section id="concentrations-by-wind-direction-and-speed-for-last-5-years-1" class="level3">
+<h3 class="anchored" data-anchor-id="concentrations-by-wind-direction-and-speed-for-last-5-years-1">concentrations by wind direction and speed for last 5 years</h3>
+<p><img src="plots/pm10_es1148a_polar.png" class="img-fluid"></p>
+</section>
+<section id="normalised-concentrations-since-monitor-installed-1" class="level3">
+<h3 class="anchored" data-anchor-id="normalised-concentrations-since-monitor-installed-1">Normalised concentrations since monitor installed</h3>
+<p><img src="plots/pm10_es1148a_norm.png" class="img-fluid"> ## Barcelon (I’Eixample) es1438a</p>
+</section>
+<section id="no2-1" class="level3">
+<h3 class="anchored" data-anchor-id="no2-1">NO<sub>2</sub></h3>
+</section>
+</section>
+<section id="concentrations-by-wind-direction-and-speed-for-last-5-years-2" class="level2">
+<h2 class="anchored" data-anchor-id="concentrations-by-wind-direction-and-speed-for-last-5-years-2">concentrations by wind direction and speed for last 5 years</h2>
+<p><img src="plots/no2_es1438a_polar.png" class="img-fluid"></p>
+</section>
+<section id="normalised-concentrations-since-monitor-installed-2" class="level2">
+<h2 class="anchored" data-anchor-id="normalised-concentrations-since-monitor-installed-2">Normalised concentrations since monitor installed</h2>
+<p><img src="plots/no2_es1438a_norm.png" class="img-fluid"></p>
+<section id="pm10-1" class="level3">
+<h3 class="anchored" data-anchor-id="pm10-1">PM<sub>10</sub></h3>
+<p><img src="plots/pm10_es1438a_polar.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="normalised-concentrations-since-monitor-installed-3" class="level2">
+<h2 class="anchored" data-anchor-id="normalised-concentrations-since-monitor-installed-3">Normalised concentrations since monitor installed</h2>
+<p><img src="plots/pm10_es1438a_norm.png" class="img-fluid"></p>
+</section>
+<section id="barcelona-gracia---sant-gervasi-es1480a" class="level2">
+<h2 class="anchored" data-anchor-id="barcelona-gracia---sant-gervasi-es1480a">Barcelona (Gracia - Sant Gervasi) es1480a</h2>
+<section id="no2-2" class="level3">
+<h3 class="anchored" data-anchor-id="no2-2">NO<sub>2</sub></h3>
+<p><img src="plots/no2_es1480a_polar.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="normalised-concentrations-since-monitor-installed-4" class="level2">
+<h2 class="anchored" data-anchor-id="normalised-concentrations-since-monitor-installed-4">Normalised concentrations since monitor installed</h2>
+<p><img src="plots/no2_es1480a_norm.png" class="img-fluid"></p>
+</section>
+<section id="pm10-2" class="level2">
+<h2 class="anchored" data-anchor-id="pm10-2">PM<sub>10</sub></h2>
+<p><img src="plots/pm10_es1480a_polar.png" class="img-fluid"></p>
+</section>
+<section id="normalised-concentrations-since-monitor-installed-5" class="level2">
+<h2 class="anchored" data-anchor-id="normalised-concentrations-since-monitor-installed-5">Normalised concentrations since monitor installed</h2>
+<p><img src="plots/pm10_es1480a_norm.png" class="img-fluid"> ## Barcelona (pl. de la Universitat) es0559a</p>
+<section id="pm10-3" class="level3">
+<h3 class="anchored" data-anchor-id="pm10-3">PM<sub>10</sub></h3>
+<p><img src="plots/pm10_es0559a_polar.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="normalised-concentrations-since-monitor-installed-6" class="level2">
+<h2 class="anchored" data-anchor-id="normalised-concentrations-since-monitor-installed-6">Normalised concentrations since monitor installed</h2>
+<p><img src="plots/pm10_es0559a_norm.png" class="img-fluid"></p>
+</section>
+<section id="i5-badalona-es0693a" class="level2">
+<h2 class="anchored" data-anchor-id="i5-badalona-es0693a">I5 Badalona es0693a</h2>
+<section id="no2-3" class="level3">
+<h3 class="anchored" data-anchor-id="no2-3">NO<sub>2</sub></h3>
+</section>
+</section>
+<section id="normalised-concentrations-since-monitor-installed-7" class="level2">
+<h2 class="anchored" data-anchor-id="normalised-concentrations-since-monitor-installed-7">Normalised concentrations since monitor installed</h2>
+<p><img src="plots/no2_es0693a_norm.png" class="img-fluid"></p>
+</section>
+<section id="ia-cornella-es0695a" class="level2">
+<h2 class="anchored" data-anchor-id="ia-cornella-es0695a">IA Cornella es0695a</h2>
+<section id="no2-4" class="level3">
+<h3 class="anchored" data-anchor-id="no2-4">NO<sub>2</sub></h3>
+</section>
+</section>
+<section id="normalised-concentrations-since-monitor-installed-8" class="level2">
+<h2 class="anchored" data-anchor-id="normalised-concentrations-since-monitor-installed-8">Normalised concentrations since monitor installed</h2>
+<p><img src="plots/no2_es0695a_norm.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="cycle-network" class="level1">
+<h1>Cycle Network</h1>
+<p>The evolution of the Barcelona cycle network,since 2009 according to OSM data, is shown below. Historic data was obtained using the ohsome R package and processed with osmactive. Also shown on <a href="https://blaisekelly.github.io/barcelona_city_dat/maps/osm_cycle_paths.html">an interactive map</a></p>
+<p><img src="plots/osm_evolution.gif" class="img-fluid"></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
