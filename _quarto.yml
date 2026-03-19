@@ -10,6 +10,8 @@ website:
         text: Home
       - href: maps/L5Y_polar_map.html
         text: AQ_polar_plots
+      - href: maps/osm_cycle_paths.html
+        text: Cycle network
       - about.qmd
 
 format:

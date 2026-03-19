@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "barcelona_city_dat",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Plotting air quality and cycle infrastructure data for Barcelona.\nMaps show air quality sites plotted as polar plots for the last 5 years\nCycle map is the evolution of Barcelona cycle paths since 2009 from ohsome package processed with osmactive."
   },
   {
     "objectID": "about.html",
