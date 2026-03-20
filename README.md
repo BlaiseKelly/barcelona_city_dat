@@ -22,37 +22,37 @@ map](https://blaisekelly.github.io/barcelona_city_dat/maps/L5Y_polar_map.html)
 The second is to meteorologically normalise the data and remove the
 effect of the weather, which is in many cases a stronger influence on
 local concentrations than sources themselves. This allows patterns from
-sources to be more visible.
+sources to be more visible. This was done using the [mweather R package] (https://github.com/skgrange/rmweather).
 
 ## Sant Adria de Beso (Olimpic) es1148a
 
 ### NO<sub>2</sub>
 
-### concentrations by wind direction and speed for last 5 years
+#### concentrations by wind direction and speed for last 5 years
 
 ![](plots/no2_es1148a_polar.png)
 
-### Normalised concentrations since monitor installed
+#### Normalised concentrations since monitor installed
 
 ![](plots/no2_es1148a_norm.png)
 
 ### PM<sub>10</sub>
 
-### concentrations by wind direction and speed for last 5 years
+#### concentrations by wind direction and speed for last 5 years
 
 ![](plots/pm10_es1148a_polar.png)
 
-### Normalised concentrations since monitor installed
+#### Normalised concentrations since monitor installed
 
 ![](plots/pm10_es1148a_norm.png) \## Barcelon (I’Eixample) es1438a
 
 ### NO<sub>2</sub>
 
-## concentrations by wind direction and speed for last 5 years
+#### concentrations by wind direction and speed for last 5 years
 
 ![](plots/no2_es1438a_polar.png)
 
-## Normalised concentrations since monitor installed
+#### Normalised concentrations since monitor installed
 
 ![](plots/no2_es1438a_norm.png)
 
@@ -60,7 +60,7 @@ sources to be more visible.
 
 ![](plots/pm10_es1438a_polar.png)
 
-## Normalised concentrations since monitor installed
+#### Normalised concentrations since monitor installed
 
 ![](plots/pm10_es1438a_norm.png)
 
@@ -70,7 +70,7 @@ sources to be more visible.
 
 ![](plots/no2_es1480a_polar.png)
 
-## Normalised concentrations since monitor installed
+#### Normalised concentrations since monitor installed
 
 ![](plots/no2_es1480a_norm.png)
 
@@ -78,7 +78,7 @@ sources to be more visible.
 
 ![](plots/pm10_es1480a_polar.png)
 
-## Normalised concentrations since monitor installed
+#### Normalised concentrations since monitor installed
 
 ![](plots/pm10_es1480a_norm.png) \## Barcelona (pl. de la Universitat)
 es0559a
@@ -87,7 +87,7 @@ es0559a
 
 ![](plots/pm10_es0559a_polar.png)
 
-## Normalised concentrations since monitor installed
+#### Normalised concentrations since monitor installed
 
 ![](plots/pm10_es0559a_norm.png)
 
@@ -95,13 +95,13 @@ es0559a
 
 ### NO<sub>2</sub>
 
-## Normalised concentrations since monitor installed
+#### Normalised concentrations since monitor installed
 
 ![](plots/no2_es0693a_norm.png)
 
 ## IA Cornella es0695a
 
-### NO<sub>2</sub>
+#### NO<sub>2</sub>
 
 ## Normalised concentrations since monitor installed
 
