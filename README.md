@@ -44,7 +44,9 @@ sources to be more visible. This was done using the [mweather R package] (https:
 
 #### Normalised concentrations since monitor installed
 
-![](plots/pm10_es1148a_norm.png) \## Barcelon (I’Eixample) es1438a
+![](plots/pm10_es1148a_norm.png) \
+
+## Barcelon (I’Eixample) es1438a
 
 ### NO<sub>2</sub>
 
